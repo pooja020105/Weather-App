@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #6D94C5;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  background-color: white;
+  width: 400px;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.search {
+  width: 30px;
+  height: 30px;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.input-container {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  border-radius: 5px;
+  border: 2px solid rgb(103, 197, 240);
+}
+input[type="text"] {
+  padding: 10px;
+  flex: 1;
+  border: none;
+  outline: none;
+}
+.snow-icon {
+  width: 200px;
+  height: 200px;
+}
+.weather-detail {
+  text-align: center;
+}
+.city,
+.temp,
+.country {
+  font-size: 30px;
+  font-weight: bold;
+}
+.city {
+  color: rgb(255, 196, 0);
+}
+.cord {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+.data-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 20px;
+}
+.percent {
+  font-weight: bold;
+}
+.wave-icon {
+  width: 50px;
+  height: 50px;
+}
+.humidity-icon {
+  width: 50px;
+  height: 50px;
+}
